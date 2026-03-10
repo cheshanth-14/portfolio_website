@@ -5,13 +5,12 @@
   "type": "module",
   "homepage": "https://cheshanth-14.github.io/portfolio_website",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
     "@fontsource/montserrat": "^5.2.8",
